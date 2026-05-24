@@ -18,7 +18,7 @@ This study presents a multicenter genomic epidemiology surveillance of *Escheric
 * `figures_and_tables/`: Code used to generate the plots and figures present in the manuscript.
 
 ## Data Availability
-* **Raw Sequencing Reads:** Deposited in the NCBI Sequence Read Archive (SRA) under BioProject accession number **[Insert BioProject Accession, e.g., PRJNAXXXXXX]**.
+* **Raw Sequencing Reads:** Deposited in the NCBI Sequence Read Archive (SRA) under BioProject accession number **PRJNA787062**.
 * **Isolate Metadata:** Fully annotated metadata mapping phenotypic profiles to genomic features can be found in `data/metadata.csv`.
 
 ## Contact
