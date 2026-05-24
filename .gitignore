@@ -1,0 +1,29 @@
+# Ignore raw sequencing data and assemblies
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.fasta
+*.fa
+*.fna
+*.gff
+
+# Ignore large alignment, mapping, and variant tracking files
+*.bam
+*.bai
+*.sam
+*.vcf
+*.vcf.gz
+*.bcf
+*.maf
+*.bed
+
+# Ignore temporary computational files or software environments
+.DS_Store
+.Rhistory
+.Rproj.user/
+__pycache__/
+.nextflow/
+.nextflow.*
+work/
+.snakemake/
