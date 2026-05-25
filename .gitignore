@@ -30,3 +30,7 @@ work/
 
 # Explicitly allow the final assembled genomes for transparency
 #!data/assembled_genomes/*.fasta
+
+# Permanently block all assembly files and their directory
+*.fasta
+data/assembled_genomes/
