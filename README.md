@@ -22,5 +22,5 @@ This study presents a multicenter genomic epidemiology surveillance of *Escheric
 * **Isolate Metadata:** Fully annotated metadata mapping phenotypic profiles to genomic features can be found in `data/metadata.csv`.
 
 ## Contact
-For queries regarding the bioinformatics pipelines or data replication, please open an issue or contact:
+For queries regarding the bioinformatics pipelines or data anaysis, please open an issue or contact:
 * **Dejenie Shiferaw Teklu** - dejenie21@gmail.com (Ethiopian Public Health Institute)
