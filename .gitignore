@@ -1,36 +1,30 @@
-# Ignore raw sequencing data and assemblies
+# Block all raw sequencing data formats
 *.fastq
 *.fastq.gz
 *.fq
 *.fq.gz
+
+# Block all genome assemblies completely
 *.fasta
 *.fa
 *.fna
 *.gff
 
-# Ignore large alignment, mapping, and variant tracking files
+# Block the entire assembled genomes folder completely
+data/assembled_genomes/
+data/assembled_genomes/*
+
+# Block bioinformatic mapping/variant formats
 *.bam
 *.bai
 *.sam
 *.vcf
 *.vcf.gz
-*.bcf
-*.maf
-*.bed
 
-# Ignore temporary computational files or software environments
+# Block system and operational work logs
 .DS_Store
 .Rhistory
 .Rproj.user/
 __pycache__/
 .nextflow/
-.nextflow.*
 work/
-.snakemake/
-
-# Explicitly allow the final assembled genomes for transparency
-#!data/assembled_genomes/*.fasta
-
-# Permanently block all assembly files and their directory
-*.fasta
-data/assembled_genomes/
