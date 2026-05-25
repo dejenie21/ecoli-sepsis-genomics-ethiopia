@@ -29,4 +29,4 @@ work/
 .snakemake/
 
 # Explicitly allow the final assembled genomes for transparency
-!data/assembled_genomes/*.fasta
+#!data/assembled_genomes/*.fasta
