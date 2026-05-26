@@ -28,3 +28,11 @@ data/assembled_genomes/*
 __pycache__/
 .nextflow/
 work/
+
+# Block raw or preprocessed trimmed read folders from sequence runs
+data/trimmed_reads/
+data/trimmed_reads/*
+
+# Block reference genomes from tracking overhead bounds
+data/references/
+data/references/*
